@@ -1,0 +1,22 @@
+{
+  "name": "bogey-example",
+  "version": "0.1.0",
+  "description": "Example visualization for Bogey.",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cognizo/bogey-example.git"
+  },
+  "dependencies": {
+    "brfs": "^1.2.0",
+    "browserify": "^5.9.1",
+    "jquery": "^2.1.1",
+    "underscore": "^1.6.0"
+  },
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  }
+}
